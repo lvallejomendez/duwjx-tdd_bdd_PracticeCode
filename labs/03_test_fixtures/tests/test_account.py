@@ -21,7 +21,7 @@ class TestAccountModel(TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        """Disconnect from """
+        """Disconnect from database"""
         db.session.close()
 
     def setUp(self):
